@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil | Pâtisseries en ligne</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f5f2;
+        }
+        nav {
+            background-color: #f8d7da; /* Couleur rose clair */
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #e0aeb5; /* Légère bordure en bas */
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin: 0 20px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #f5c2c7; /* Couleur au survol */
+        }
+        .hero {
+            text-align: center;
+            background: url('https://source.unsplash.com/1600x900/?bakery') no-repeat center center/cover;
+            color: #d3a37a;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin: 20px 0;
+        }
+        .hero a {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #d3a37a;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        .hero a:hover {
+            background-color: #b88b63;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #d3a37a;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="contact.html">Contact</a>
+        <a href="produits.html">Produits</a>
+        <a href="horaires.html">Horaires</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Bienvenue sur Sugar Sprinkles</h1>
+        <p>Une pluie de paillettes sucrées pour illuminer vos envies gourmandes.</p>
+        <a href="produits.html">Voir nos produits</a>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>À propos de nous</h2>
+            <p>Nous sommes passionnés par l'art de la pâtisserie. Tous nos produits sont préparés avec amour et les meilleurs ingrédients pour satisfaire vos papilles.</p>
+        </div>
+
+        <div class="section">
+            <h2>Nos spécialités</h2>
+            <p>Des macarons fondants, des gâteaux personnalisés et des tartes aux fruits frais. Chez nous, chaque bouchée est un pur plaisir.</p>
+        </div>
+
+        <div class="section">
+            <h2>Où nous trouver ?</h2>
+            <p>Consultez nos <a href="horaires.html">horaires</a> pour savoir quand nous sommes ouverts ou contactez-nous directement.</p>
+        </div>
+    </div>
+</body>
+</html>
